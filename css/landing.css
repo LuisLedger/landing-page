@@ -1,0 +1,94 @@
+/*PRINCIPAL*/
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('./Segoe UI.ttf');
+}
+body{
+    font-family: 'Segoe UI';
+}
+
+/*HEADER*/
+.nav-link{
+    font-size:12px;
+}
+
+/*LANDING PAGE*/
+.section {
+    padding-top: 100px;   
+    padding-bottom: 100px;   
+}
+/*BACKGROUND COLORS*/
+.bg-layout{
+    background-image: linear-gradient(to right, #8490FF , #62BDFC);
+}
+/*BUTTONS*/
+.btn-layout {
+    background-image: linear-gradient(to right, #8490FF , #62BDFC);
+    color:#fff;
+}
+.btn-layout:hover {
+    background-image: linear-gradient(to right, #8490FF , #62BDFC);
+    color:#fff;
+}
+/*STYLE SECTIONS*/
+.heading-items{
+    width: 550px; 
+    height: 585px;
+    padding-top: 10rem;
+}
+.heading-img{
+    width: 550px; 
+    height: 585px;
+}
+.about-img{
+    width: 550px; 
+    height: 353px;
+}
+.services-img {
+    font-size: 90px;
+}
+.bounce{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+.portfolio-img {
+    width: 360px;
+    height: 266px;
+}
+.client-testimonial{
+    height: 200px;
+}
+.client-img{
+    margin: 1rem;
+    width: 80px;
+    height: 80px;
+}
+.client-testimonial-p {
+    font-size: 12px;
+}
+.pricing-item {
+    padding: 2rem;
+    text-align: center;
+}
+.pricing-item img {
+    margin: 10px;
+}
+.pricing-item p {
+    margin: 0px;
+}
+.pricing-item h3 {
+    margin: 10px;
+}
+.pricing-item .list-group-item {
+    border: none;
+    border-top: 1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    background-color: transparent;
+    font-size: 9px;
+}
+/*FOOTER*/
+footer {
+    background-color: #04091E;
+    color: #fff;
+}
