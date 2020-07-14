@@ -6,6 +6,17 @@
 body{
     font-family: 'Segoe UI';
 }
+/*BACKGROUNDS*/
+.bg-black {
+    background-color: #000!important;
+    color:#fff!important;
+    border-radius: 0px;
+}
+.bg-dark-gray {
+    background-color: #151515!important;
+    color:#fff!important;
+    border-radius: 0px;
+}
 
 /*HEADER*/
 .nav-link{
@@ -19,15 +30,23 @@ body{
 }
 /*BACKGROUND COLORS*/
 .bg-layout{
-    background-image: linear-gradient(to right, #8490FF , #62BDFC);
+    background-image: linear-gradient(to right, #000000 , #1C1C1C);
 }
 /*BUTTONS*/
 .btn-layout {
-    background-image: linear-gradient(to right, #8490FF , #62BDFC);
+    background-image: linear-gradient(to right, #000000 , #1C1C1C);
     color:#fff;
 }
 .btn-layout:hover {
-    background-image: linear-gradient(to right, #8490FF , #62BDFC);
+    background-image: linear-gradient(to right, #000000 , #1C1C1C);
+    color:#fff;
+}
+.btn-gray {
+    background-color: #424242;
+    color:#fff;
+}
+.btn-gray:hover {
+    background-color: #585858;
     color:#fff;
 }
 /*STYLE SECTIONS*/
@@ -38,7 +57,7 @@ body{
 }
 .heading-img{
     width: 550px; 
-    height: 585px;
+    height: 550px;
 }
 .about-img{
     width: 550px; 
@@ -46,6 +65,16 @@ body{
 }
 .services-img {
     font-size: 90px;
+    transition: all .2s ease-in-out; 
+}
+.services-img:hover {
+    transform: scale(1.1);
+}
+.list-skill {
+    transition: all .2s ease-in-out; 
+}
+.list-skill:hover {
+    transform: scale(1.1);
 }
 .bounce{
     font-size: 40px;
@@ -58,6 +87,10 @@ body{
 }
 .client-testimonial{
     height: 200px;
+    transition: all .2s ease-in-out; 
+}
+.client-testimonial:hover{
+    transform: scale(1.1);
 }
 .client-img{
     margin: 1rem;
@@ -70,6 +103,10 @@ body{
 .pricing-item {
     padding: 2rem;
     text-align: center;
+    transition: all .2s ease-in-out; 
+}
+.pricing-item:hover {
+    transform: scale(1.1);
 }
 .pricing-item img {
     margin: 10px;
@@ -82,13 +119,15 @@ body{
 }
 .pricing-item .list-group-item {
     border: none;
-    border-top: 1px solid rgba(0,0,0,.125);
-    border-bottom: 1px solid rgba(0,0,0,.125);
+    /*border-top: 1px solid rgba(0,0,0,.125);*/
+    /*border-bottom: 1px solid rgba(0,0,0,.125);*/
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     background-color: transparent;
     font-size: 9px;
 }
 /*FOOTER*/
 footer {
-    background-color: #04091E;
+    background-color: #000;
     color: #fff;
 }

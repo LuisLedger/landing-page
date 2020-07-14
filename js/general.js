@@ -25,6 +25,6 @@ var main = {
 
 }
 $(document).ready(function(){
-
     main.ready();
+    $('#home').fadeIn(3000)
 })
